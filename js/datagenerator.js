@@ -16,7 +16,7 @@ $(function() {
 		var data = {
 			name: row.find('[name$="[name]"]').val(),
 			type: row.find('[name$="[type]"]').val(),
-			subtype: row.find('[name$="[subtype]"]').val(),
+			preset: row.find('[name$="[preset]"]').val(),
 			value: row.find('[name$="[value]"]').val(),
 			extra: extra_data,
 			i: row.find('[name=i]').val()
